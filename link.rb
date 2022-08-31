@@ -1,3 +1,4 @@
+
 class Link < Post
 
   def initialize
@@ -13,3 +14,9 @@ class Link < Post
   end
 
 end
+
+
+
+
+
+

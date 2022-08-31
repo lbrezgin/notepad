@@ -1,3 +1,5 @@
+require 'date'
+
 class Task < Post
 
   def initialize
@@ -12,4 +14,8 @@ class Task < Post
   def to_strings
   end
 
+
+def hello
+
 end
+

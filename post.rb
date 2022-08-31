@@ -1,8 +1,10 @@
 class Post
 
   def initialize
+
     @created_at = Time.new
-    @text = nil
+    @text = []
+
   end
 
   def read_from_console
@@ -28,7 +30,8 @@ class Post
 
     file_name = @created_at.strftime("#{self.class.name}"_%Y-%m-%d_%H-%M-%S.txt")
 
-    return current_path + "/" + file_name
+    return current_path + "/" + file_name"
 
   end
 end
+

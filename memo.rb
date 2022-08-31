@@ -7,3 +7,6 @@ class Memo < Post
   end
 
 end
+
+
+
