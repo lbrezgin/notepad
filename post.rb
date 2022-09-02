@@ -42,5 +42,3 @@ class Post
   end
 end
 
-
-

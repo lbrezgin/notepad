@@ -21,5 +21,3 @@ class Link < Post
     return [@url, @text, time_string]
   end
 end
-
-
